@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.databox {
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgba(9, 112, 164, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table thead tr th {
+  border-collapse: collapse;
+  border: 2px solid black;
+  background-color: #0f77b3;
+  margin: 2px;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.table tbody tr td {
+  border-collapse: collapse;
+  border: 1.7px solid black;
+  background-color: rgba(140, 199, 225, 0.961);
+  margin: 2px;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
+.input {
+  border: none;
+  border-radius: 10px;
+  padding: 7px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  font-weight: bold;
+}
+
+button{
+  border-radius: 8px 3px;
+  padding: 8px;
+  font-weight: bold;
+}
